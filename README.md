@@ -1,16 +1,45 @@
 # budaya_app
 
-A new Flutter project.
+Aplikasi Flutter yang menampilkan data budaya Indonesia, mulai dari daftar budaya, pencarian, kategori, hingga detail budaya dan penyewaan. Data diambil melalui API berbasis JSON.
 
-## Getting Started
+# Fitur Utama
 
-This project is a starting point for a Flutter application.
+- Menampilkan daftar budaya
+- Detail budaya lengkap (nama, deskripsi, gambar, kategori, dll.)
+- Pencarian budaya
+- Filter berdasarkan kategori
+- Halaman penyewaan budaya
+- UI modern, responsif, dan clean
+- Mendukung banyak platform (Android dan Windows)
 
-A few resources to get you started if this is your first Flutter project:
+# API Endpoint yang Digunakan
+Aplikasi menggunakan API JSON yang disimpan di Vercel, jadi jika ingin akses API harus membuat akun Vercel terlebih dahulu:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+a. Base URL API : https://vercel-upload-wbcoji9ew-faizalvs-projects.vercel.app/budaya.json
+b. Endpoint: Get Semua Budaya : /budaya.json
+c. Struktur Folder Project
+   budaya_app/
+    ├── lib/
+    │   ├── config/
+    │   ├── data/
+    │   ├── models/
+    │   ├── repository/
+    │   ├── pages/
+    │   ├── widgets/
+    │   ├── utils/
+    │   └── main.dart
+    ├── assets/
+    ├── android/
+    ├── ios/
+    ├── web/
+    ├── linux/
+    ├── macos/
+    └── windows/
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Instalasi & Menjalankan Project
+
+1. Clone Reppository : git clone https://github.com/Faizal1020/Ujian-Akhir-Semester_Moh-Faizal-Alvin_230605110112.git
+                       cd Ujian-Akhir-Semester_Moh-Faizal-Alvin_230605110112
+2. Install Dependencies : flutter pub get
+3. Jalankan Aplikasi : flutter run
+
